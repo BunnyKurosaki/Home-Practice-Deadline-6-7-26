@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Shop</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <section class="products">
+    <div class="section-head">
+    <h3>GAME SHOP BD</h3>
+    <span>03 Titles in Stock</span>
+    </div>
+
+    <div class="grid">
+    <div class="card">
+    <div class="spine">
+     <span>Action</span>
+    </div>
+    <div class="body">
+       <h4>Cyber Adventure</h4>
+        <p class="desc">Action adventure game</p>
+    <div class="foot">
+        <div class="ticket">$49.99</div>
+        <button class="buy-btn">Buy Now</button>
+    </div>
+    </div>
+    </div>
+
+    <div class="card">
+        <div class="spine">
+        <span>Racing</span>
+    </div>
+    <div class="body">
+        <h4>Racing Legends</h4>
+        <p class="desc">High speed racing game</p>
+    <div class="foot">
+    <div class="ticket">$39.99</div>
+        <button class="buy-btn">Buy Now</button>
+    </div>
+    </div>
+    </div>
+    <div class="card">
+    <div class="spine">
+        <span>Battle</span>
+    </div>
+
+    <div class="body">
+        <h4>Battle Arena</h4>
+        <p class="desc">Multiplayer battle game</p>
+    <div class="foot">
+    <div class="ticket">$29.99</div>
+        <button class="buy-btn">Buy Now</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section class="order-form">
+    <div class="ticket-box">
+    <div class="section-head">
+        <h3>Order Ticket</h3>
+        <span>Fill in your details to redeem</span>
+    </div>
+
+    <form>
+     <div class="field">
+        <label>Full Name</label>
+        <input type="text" required>
+    </div>
+    <div class="field">
+        <label>Email</label>
+        <input type="email" required>
+    </div>
+    <div class="field">
+        <label>Select Game</label>
+    <select>
+        <option>Cyber Adventure</option>
+        <option>Racing Legends</option>
+        <option>Battle Arena</option>
+        </select>
+    </div>
+    <div class="field">
+        <label>Quantity</label>
+        <input type="number" min="1" value="1">
+    </div>
+        <div class="field">
+        <label>Payment Method</label>
+    <select>
+        <option>Credit Card</option>
+        <option>Debit Card</option>
+        <option>PayPal</option>
+    </select>
+    </div>
+    <div class="field">
+        <label>Delivery Address</label>
+        <input type="text" placeholder="Optional for digital delivery">
+    </div>
+    <div class="field">
+        <label>Notes</label>
+        <textarea placeholder="Anything else we should know?"></textarea>
+    </div>
+        <input class="place-order" type="submit" value="Place Order">
+    </form>
+    </div>
+    </section>
+    <footer>
+        &copy; 2026 GAME SHOP — All carts sold digitally, no cartridges harmed.
+    </footer>
+</body>
+</html>
